@@ -1,0 +1,17 @@
+body {
+	margin-top: 20px;
+	background-color: #154b6d;
+}
+#wrapper {
+	background-image: url('BOTB_round2_bgd.jpg');
+	background-repeat: no-repeat;
+	width: 980px;
+	min-height: 800px;
+	margin: 0px auto;
+	position: relative;
+}
+#feed {
+    position: absolute;
+    right: 22px;
+    top: 45px;
+}

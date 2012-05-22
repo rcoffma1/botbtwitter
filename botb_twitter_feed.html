@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Battle of the Bands 2012</title>
+		<link type="text/css" rel="stylesheet" charset="UTF-8" href="botb_twitter_feed.css"></link>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="feed">
+				<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+				<script>
+				try {
+					new TWTR.Widget({
+					  version: 2,
+					  type: 'search',
+					  search: '#LampoBOTB',
+					  /*search: '@DaveRamsey',*/
+					  interval: 5000,
+					  title: 'Lampo Battle of the Bands',
+					  subject: 'Turn it up to 11',
+					  width: 480,
+					  height: 380,
+					  theme: {
+						shell: {
+						  background: '#154B6D',
+						  color: '#fff'
+						},
+						tweets: {
+						  background: '#ffffff',
+						  color: '#555555',
+						  links: '#d76326'
+						}
+					  },
+					  features: {
+						scrollbar: false,
+						loop: true,
+						live: true,
+						behavior: 'default'
+					  }
+					}).render().start();
+				} catch (err) {
+					alert(err.message);
+				}
+				</script>
+			</div>
+		</div>
+	</body>
+</html> 
